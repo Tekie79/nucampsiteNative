@@ -15,6 +15,7 @@ function RenderCampsite(props) {
         <Text style={{ margin: 10 }}>{campsite.description}</Text>
         <Icon
           name={props.favorite ? "heart" : "heart-o"}
+          type="font-awesome"
           color="#f50"
           raised
           reverse
@@ -69,7 +70,7 @@ class CampsiteInfo extends Component {
   };
 
   markFavorite() {
-    this.setState({ favporite: true });
+    this.setState({ favorite: true });
   }
 
   render() {
