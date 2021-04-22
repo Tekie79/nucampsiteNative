@@ -63,7 +63,6 @@ class About extends Component {
         </ScrollView>
       );
     }
-
     return (
       <ScrollView>
         <Mission />
